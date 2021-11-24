@@ -1,0 +1,25 @@
+.header {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 25px 0;
+    &_nav-link{
+        margin-right: 25px;
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+    }
+    & .container{
+        display: flex;
+        align-items: center;
+    }
+}
+.select {
+    width: 62px;
+    padding: 5px 0;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.select option {
+    font-size: 16px;
+}

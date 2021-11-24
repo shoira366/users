@@ -1,0 +1,22 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  font-family: Arial;
+  // background-color: #FEFBF3;
+}
+body{
+  background-color: #FEFBF3;
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.active{
+  background-color: gold;
+  padding: 10px;
+  border-radius: 5px;
+}

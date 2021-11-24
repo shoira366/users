@@ -1,0 +1,168 @@
+.form_div {
+    display: flex;
+}
+
+.create_user {
+    border: 2px solid #F0A500;
+    margin-bottom: 15px;
+    padding: 25px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.create_user p {
+    color: #082032;
+    font-size: 19px;
+}
+
+.create_user h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.userForm {
+    margin-top: 20px;
+}
+
+.userForm input {
+    background-color: #334756;
+    border: none;
+    padding: 10px 0;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #F0A500;
+}
+
+.userForm input::placeholder {
+    font-size: 16px;
+    color: #F0A500;
+}
+
+.userForm button {
+    width: 85px;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 350px;
+    margin-top: 10px;
+    background-color: #F0A500;
+    color: #334756;
+    border: none;
+    border-radius: 5px;
+}
+
+.update_user {
+    border: 2px solid #F0A500;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding: 25px;
+    width: 50%;
+}
+
+.update_user h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.update_user p {
+    color: #082032;
+    font-size: 19px;
+}
+.updateForm {
+    margin-top: 15px;
+}
+
+.updateForm input {
+    background-color: #334756;
+    border: none;
+    padding: 10px 0;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: #F0A500;
+}
+
+.updateForm input::placeholder {
+    font-size: 16px;
+    color: #F0A500;
+}
+
+.updateForm button {
+    width: 85px;
+    padding: 8px 0;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 125px;
+    background-color: #F0A500;
+    color: #334756;
+    border: none;
+    border-radius: 5px;
+}
+.users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    border: 4px solid #FFE194;
+    border-radius: 5px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    &:nth-child(4n){
+        margin-right: 0;
+    }
+    & span{
+        font-size: 20px;
+        color: #261C2C;
+    }
+    & h2{
+      color: #297F87;  
+      font-size: 25px;
+      margin-bottom: 10px;
+      margin-top: 7px;
+    }
+    & h3{
+        color: #DF2E2E;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    &_email{
+        color: #F6D167;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 10px;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    & p{
+        color: #297F87;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    & button{
+        width: 85px;
+        padding: 8px 0;
+        cursor: pointer;
+        font-size: 18px;
+        background-color: #F0A500;
+        color: #334756;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    &_post{
+        color: #2C2E43;
+        font-size: 20px;
+    }
+}
