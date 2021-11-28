@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useParams } from "react-router"
-import { useRef } from "react/cjs/react.development"
+import { useRef } from "react"
 import './Posts.scss'
 
 function Posts() {
